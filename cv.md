@@ -58,7 +58,7 @@ function solution(number){
 
 <https://isca7el.github.io/Sedona/> - first step in webdevelopment. In this maket was used HTML, CSS and Java Script.
 
-<https://isca7el.github.io/mavic/> - work foe exrerience with HTML, SASS and Java Script.
+<https://isca7el.github.io/mavic/> - work for exrerience with HTML, SASS and Java Script.
 
 Freelance
 
