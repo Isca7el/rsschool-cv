@@ -12,3 +12,44 @@
 ## About me
 
 Information about me: 31 years, higher education, married, have a son. let's start with my work: i'm a miner and i know what's hard work (my experience about 10 years). At this moment the goal of my life is to become a web programmer.  I don't have expirience in programming, but i open for free projects and internship. Every day i improve my skills in programming (education, find new information, repetition of the passed material, watching interview for finding job and others). Also i improve my communication skills wich give a lot of opportunities and new friends and colleagues. Main rule of my life: "Hard work is always rewarded'.
+
+## My strengths
+
+1. Purposefulness and systematic approach
+2. Responsibility to work
+3. High learning ability
+4. Technical mindset
+5. Constant desire to develop
+
+## My skills
+
+- HTML;
+- CSS;
+- (SASS);
+- JS base;
+- Gulp;
+- Git, github;
+- VS Code;
+
+## Sample code
+
+```Javascript
+function solution(number){
+  if (number <= 0) {
+    return 0;
+  } else {
+    let num = [];
+    for (let i = 1; i < number; i ++){
+      num.push(i);
+    }
+
+    let sum = [];
+    num.map(function(el){
+      if (el % 3 === 0 || el % 5 === 0){
+        sum.push(el);
+      }
+    })
+    return sum.reduce((sum, el) => sum + el, 0);
+  }
+}
+```
