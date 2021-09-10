@@ -53,3 +53,21 @@ function solution(number){
   }
 }
 ```
+
+## Projects
+
+<https://isca7el.github.io/Sedona/> - first step in webdevelopment. In this maket was used HTML, CSS and Java Script.
+
+<https://isca7el.github.io/mavic/> - work foe exrerience with HTML, SASS and Java Script.
+
+Freelance
+
+## Education
+
+1. <https://www.freecodecamp.org/>
+2. RS school (pre-school javascript)
+
+## Languages
+
+- English: B1-B2. Every day i leran some new in language;
+- Russian: native.
