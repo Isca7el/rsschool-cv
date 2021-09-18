@@ -129,8 +129,13 @@
                     <pre>
 <code class="hljs language-typescript">
 function solution(number){
-if (number &lt&amp0) { return 0; } else { let num=[]; for (let i=1; i &lt&number; i ++){ num.push(i);}
-let sum=[]; num.map(function(el){ if (el % 3===0 || el % 5===0){ sum.push(el); } }) return
+if (number < 0) { return 0; } 
+else { let num=[]; for (let i=1; i &lt&number; i ++)
+{ num.push(i);}
+let sum=[]; 
+num.map(function(el)
+{ if (el % 3===0 || el % 5===0)
+    { sum.push(el); }) return
 sum.reduce((sum, el)=> sum + el, 0);}
 }
 </code>
