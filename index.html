@@ -28,7 +28,7 @@
     &gt;<li class="header__list--item">
     &gt;<a class="header__list--link" href="#contacts">Contacts</a>
     &gt;</li>
-    &gt; <li class="header__list--item">
+    &gt;<li class="header__list--item">
     &gt;<a class="header__list--link" href="#my_skills">My skills</a>
     &gt;</li>
     &gt;<li class="header__list--item">
@@ -126,14 +126,14 @@
                 &gt; <pre>
 <code class="hljs language-typescript">
 function solution(number){
-if (number < 0) { return 0; } 
+if (number &lt; 0) { return 0; }
 else { let num=[]; for (let i=1; i &lt;&gt;number; i ++)
 { num.push(i);}
 let sum=[]; 
 num.map(function(el)
 { if (el % 3===0 || el % 5===0)
     { sum.push(el); }) return
-sum.reduce((sum, el)=> sum + el, 0);}
+sum.reduce((sum, el)=&gt; sum + el, 0);}
 }
 </code>
 </pre>
