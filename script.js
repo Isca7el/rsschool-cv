@@ -1,9 +1,13 @@
 const btn = document.querySelector('.header__btn');
-const nav = document.querySelector('.header__list');
+const list = document.querySelector('.header__list');
+const nav = document.querySelector('.header__nav');
+// const items = document.querySelectorAll('')
 
-btn.addEventListener('click', function(){
-    btn.classList.toggle('active');
-    nav.classList.toggle('active');
+btn.addEventListener('click', function(e){
+    console.log(e.target)
+    btn.classList.add('active');
+    list.classList.add('active');
+    nav.classList.add('active')
 })
 
 let str = `Критерии оценки:
